@@ -1,0 +1,39 @@
+{
+  "driver_id": "ecobee",
+  "version": "1.0.0",
+  "min_core_api": "0.22.0",
+  "name": {
+    "en": "ecobee Thermostats"
+  },
+  "icon": "uc:home",
+  "description": {
+    "en": "Control your ecobee smart thermostats from the Remote. Each thermostat gets a climate entity (heat, cool, auto, off, target temperature and range, fan), a remote with simple commands for activities, comfort setting (Home / Away / Sleep / Away Indefinitely / Resume Schedule) and fan selectors, humidifier controls, Aux Heat Only and ventilator switches, and sensors for temperature, humidity, activity, weather, remote room sensors, occupancy and air quality. Sign in with your ecobee account (two-step verification supported) or a legacy developer API key."
+  },
+  "developer": {
+    "name": "Meir Miyara",
+    "email": "meir.miyara@gmail.com",
+    "url": "https://github.com/mase1981"
+  },
+  "home_page": "https://github.com/mase1981/uc-intg-ecobee",
+  "release_date": "2026-10-01",
+  "setup_data_schema": {
+    "title": {
+      "en": "ecobee Setup"
+    },
+    "settings": [
+      {
+        "id": "info",
+        "label": {
+          "en": "ecobee Thermostats"
+        },
+        "field": {
+          "label": {
+            "value": {
+              "en": "On the next screen sign in with your ecobee account email and password (the same login as the ecobee app). All thermostats on the account are added. ecobee is a cloud service, so the Remote needs internet access."
+            }
+          }
+        }
+      }
+    ]
+  }
+}
